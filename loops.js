@@ -23,7 +23,7 @@ function maybeTrue() {
 
 var i = 0;
 
-function incrementVariable() {
+function incrementVariable(num) {
   i = i + 1;
   return i;
 }

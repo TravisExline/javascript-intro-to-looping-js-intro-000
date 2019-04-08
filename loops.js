@@ -34,10 +34,3 @@ function doWhileLoop(0) {
   }
   while (incrementVariable() > 10);
 }
-
-function doWhileLoop(10) {
-  do {
-    console.log('I run once regardless');
-  }
-  while (incrementVariable() <= 10);
-}

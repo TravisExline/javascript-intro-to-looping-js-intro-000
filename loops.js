@@ -23,14 +23,14 @@ function maybeTrue() {
 
 var i = 0;
 
-function incrementVariable(num) {
+function incrementVariable() {
   i = i + 1;
   return i;
 }
 
-function doWhileLoop() {
+function doWhileLoop(num) {
   do {
     console.log('I run once regardless');
   }
-  while (incrementVariable() > 10);
+  while (incrementVariable() < num);
 }
